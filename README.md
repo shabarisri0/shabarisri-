@@ -70,9 +70,20 @@
             padding: 10px;
             margin-top: 20px;
         }
+        iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: auto;
+}
     </style>
 </head>
 <body>
+
 
     <header>
         <h1>Shabari sri</h1>
@@ -87,12 +98,35 @@
         <a href="#resume">Resume</a>
     </nav>
 
+    
+
     <div class="container">
         
         <div id="about" class="section">
             <h2>About Me</h2>
             <p>I'm a <strong>cyber security</strong> expert and technology enthusiast passionate about helping organizations protect their data. With over 7 years of experience, I stay updated with the latest trends in cybersecurity and online security.</p>
         </div>
+        <div id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="#">AI-Based Alternator Control System</a></li>
+        <li><a href="#">Cloud Security IBM</a></li>
+        <li><a href="#">IBM Chatbot</a></li>
+        <li><a href="#">Chatbot</a></li>
+    </ul>
+</div>
+
+<div id="demo-video" class="section">
+    <h2>Project Demo Video</h2>
+    <iframe src="https://drive.google.com/file/d/1QQPqrL1d3fFhMQ9rePR6ceJ6OJgibLWW/preview" 
+            width="640" height="480" 
+            allow="autoplay"></iframe>
+</div>
+
+<div id="resume" class="section resume">
+    <h2>Resume</h2>
+    <a href="#">Download CV</a>
+</div>
 
         <div id="education" class="section">
             <h2>Education</h2>
